@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { logoutUser } from "../data/user";
+import { toast } from 'react-toastify'
 
 function Menu(props){
 
